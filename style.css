@@ -1,0 +1,42 @@
+/* screen for medium devices and up */
+@media (min-width: 768px) {
+    .container {
+        width: 600px;
+    }
+}
+
+/* screen for small devices */
+@media (max-width: 576px) {
+    .container {
+        width: 600;
+    }
+}
+
+/* navbar */
+.h1-nav {
+    color: rgb(255, 241, 40);
+    font-family: fantasy;
+}
+
+/* add a note container */
+.add-note {
+    color: rgb(255, 255, 255);
+}
+
+.note-title {
+    color: white;
+}
+
+.note-text {
+    color: white;
+}
+
+/* your notes container */
+#notes {
+    height: 400px;
+    overflow: scroll;
+}
+
+.form-control {
+    box-shadow: 10px 10px 5px;
+}
